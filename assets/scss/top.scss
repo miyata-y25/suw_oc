@@ -742,9 +742,18 @@ body {
             border-left: 1px solid #CCC;
             padding: 1.5em;
             text-align: center;
+            &.aqa {
+                background-color: #ebf6fb;
+                color: #000;
+            }
+            &.ora {
+                background-color: #fff4e8;
+                color: #000;
+            }
         }
         th {
-            background: #ebf6fb;
+            background: $aqa;
+            color: #FFF;
         }
         &:first-child {
             th {

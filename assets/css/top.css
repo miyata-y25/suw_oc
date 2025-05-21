@@ -879,8 +879,17 @@ body {
   padding: 1.5em;
   text-align: center;
 }
+.access-busmap-table tr th.aqa, .access-busmap-table tr td.aqa {
+  background-color: #ebf6fb;
+  color: #000;
+}
+.access-busmap-table tr th.ora, .access-busmap-table tr td.ora {
+  background-color: #fff4e8;
+  color: #000;
+}
 .access-busmap-table tr th {
-  background: #ebf6fb;
+  background: #3086c4;
+  color: #FFF;
 }
 .access-busmap-table tr:first-child th:first-child {
   background: none;
